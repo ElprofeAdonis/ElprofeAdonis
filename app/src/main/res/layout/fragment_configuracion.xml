@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ui.configuracion.ConfiguracionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner_redondo"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginRight="-40dp">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/ado" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avatarImage"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_imail_pagina"
+            android:textColor="@color/colorGranada"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/texcomentario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_ayuda"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/texpregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center|center_horizontal"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_pregunta"
+            android:textColor="@color/colorGranada"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/texcontacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_contacto"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/texsoporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_soporte"
+            android:textColor="@color/colorGranada"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/texTerusos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_terminos"
+            android:textColor="@color/colorGranada"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/texPoliticas"
+            android:layout_width="250dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/avatarImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/nav_politicas"
+            android:textColor="@color/colorGranada"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

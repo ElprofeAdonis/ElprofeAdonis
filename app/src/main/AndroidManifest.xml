@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.example.elprofeadonis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ElprofeAdonis">
+        <activity
+            android:name=".activity.VistaActividadesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ViewAtraccionesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".recyclertrimestre.Trimestre_setimo_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".recyclerMenu.RecyclerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PresentacionInicio"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RegistrarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.inicioActivity"
+            android:exported="true"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.ElprofeAdonis.NoActionBar" />
+        <activity
+            android:name=".activity.phpmyadminActivity"
+            android:exported="true"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.ElprofeAdonis.NoActionBar" />
+        <activity
+            android:name=".activity.IntroActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

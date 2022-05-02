@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">ElprofeAdonis</string>
+    <string name="label_usuario">Correo Electrónico</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_start_session">Iniciar Sesión</string>
+    <string name="label_nuevoUser"><u>Nuevo Usuario ? Registrarme Ahora</u></string>
+    <string name="label_olvide_password">Olvide mi contraseña ?</string>
+    <string name="label_bienvenida">Hola ! - Identifíquese para iniciar sesión</string>
+    <string name="title_activity_inicio">inicioActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ElprofeAdonis</string>
+    <string name="nav_header_subtitle">elprofeadonis20@gmail.com</string>
+
+    <string name="nav_setimo">Septimo año</string>
+    <string name="nav_octavo">Octavo año</string>
+    <string name="nav_noveno">Noveno año</string>
+    <string name="nav_decimo">Decimo año</string>
+
+    <string name="nav_I_Trimestre">Capítulo I: Números</string>
+    <string name="nav_II_Trimestre">Capítulo II: Relaciones y Algebra</string>
+    <string name="nav_III_Trimestre">Capítulo III: Estadística</string>
+    <string name="nav_IV_Trimestre">Capítulo IV: Geometría</string>
+
+    <string-array name="trimestres_colegio">
+        <item>Capítulo I: Números</item>
+        <item>Capítulo II: Relaciones y Algebra</item>
+        <item>Capítulo III: Estadística</item>
+        <item>Capítulo IV: Geometría</item>
+    </string-array>
+
+
+    <string name="nav_imail_pagina"><u>www.elprofeadonis.com</u></string>
+    <string name="nav_ayuda">¿Necesitas ayuda?</string>
+    <string name="nav_pregunta"><u>Envíanos una pregunta</u></string>
+    <string name="nav_contacto">Ponte en contacto con nosotros:</string>
+    <string name="nav_soporte"><u>support@elprofeadonis.com</u></string>
+    <string name="nav_terminos">TÉRMINOS DE USO</string>
+    <string name="nav_politicas">POLÍTICAS DE PRIVACIDAD</string>
+
+    <string name="nav_pagina">https://adonisaleman60.wixsite.com/elprofeadonis</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesión</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Acerca De las Conecciones</string>
+    <string name="menu_slideshow">Sobre nosotros</string>
+    <string name="menu_slideshow1">Organización</string>
+
+    <string name="info_acerca_de">Esta aplicación nace ElprofeAdonis con el propósito de poder cambiar vidas, en el entorno educativo. Podemos apreciar los diferentes recursos con los que contamos para que el proceso de aprendizaje sea mas efectivo</string>
+
+    <string-array name="grados_generales">
+        <item>Septimo año</item>
+        <item>Octavo año</item>
+        <item>Noveno año</item>
+        <item>Decimo año</item>
+        <item>Un Desimo año</item>
+    </string-array>
+
+    <string-array name="tipoDoc">
+        <item>Cédula</item>
+        <item>Dimex.</item>
+        <item>PASAPORTE</item>
+    </string-array>
+    <string-array name="Cantón">
+        <item>Abangares</item>
+        <item>Acosta</item>
+        <item>Alajuelita</item>
+        <item>Atenas</item>
+        <item>Barba</item>
+        <item>Belén</item>
+        <item>Corredores</item>
+        <item>Curridabat</item>
+        <item>Coto Brus</item>
+        <item>Dota</item>
+        <item>Escazú</item>
+        <item>El Guarco</item>
+        <item>Esparza</item>
+        <item>Grecia</item>
+        <item>Guácimo</item>
+    </string-array>
+    <string-array name="provincias">
+        <item>San José</item>
+        <item>Alajuela</item>
+        <item>Heredia</item>
+        <item>Cartago</item>
+        <item>Puntarenas</item>
+        <item>Guanacaste</item>
+        <item>Limon</item>
+    </string-array>
+    <string-array name="distritos">
+        <item>Carrizal</item>
+        <item>Pueblo Nuevo</item>
+        <item>Turrúcares</item>
+        <item>Tambor</item>
+        <item>San Ramón</item>
+        <item>San Isidro</item>
+        <item>San Lorenzo</item>
+        <item>San Juan</item>
+        <item>Grecia</item>
+        <item>Zapotal</item>
+        <item>San Roque</item>
+        <item>San Mateo</item>
+        <item>San Miguel</item>
+        <item>San Jeronimo</item>
+        <item>San Rafael</item>
+        <item>La Ceiba</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
