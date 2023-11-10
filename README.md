@@ -5,6 +5,7 @@
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 <p align="left"> <a href="https://twitter.com/@ado_aleman" target="blank"><img src="https://img.shields.io/twitter/follow/@ado_aleman?logo=twitter&style=for-the-badge" alt="@ado_aleman" /></a> </p>
+- 👨‍💻 doreads design on [Doreads Frontend](https://www.figma.com/file/rydQCtJxiapwM61gVgZv7X/Doread-beta?type=design&mode=design&t=3n2B27U2JvpDSAUa-1)
 
 - 🔭 I’m currently working on [Doreads Frontend](https://github.com/ElprofeAdonis/doreads-frontend.git)
 
